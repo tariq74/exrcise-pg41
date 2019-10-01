@@ -1,0 +1,20 @@
+#include "stdafx.h"
+#include<iostream>
+using namespace std;
+
+int main()
+{
+	const int DISC = 10;
+	float price = 9.90;
+	int quantity;
+	float totalprice;
+	cout << "enter the quantity\n";
+	cin >> quantity;
+	totalprice = (price*quantity)*(100 - DISC) / 100.0;
+	cout << "totalprice=:" << totalprice << endl;
+
+
+	return 0;
+
+}
+
